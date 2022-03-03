@@ -1,6 +1,8 @@
 
 process INDEX {
     tag "$transcriptome.simpleName"
+    storeDir params.store_dir
+
 
     input:
     path transcriptome 
